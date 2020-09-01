@@ -6,22 +6,30 @@
     background-color: #F0F0F0;
 }
 .caption{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 85px;
+    margin-bottom: 85px;
 }
 .caption h1{
     font-size: 56px;
 }
-.line{
+.line1,.line2{
     position: relative;
 }
-.line:before{
+.line1:before{
     position: absolute;
     content: "";
     background: #2EB738;
     height: 1px;
     width: 280px;
     transform:translate(-140px,15px);
+}
+.line2:before{
+    position: absolute;
+    content: "";
+    background: #2EB738;
+    height: 1px;
+    width: 280px;
+    transform:translate(-140px,10px);
 }
 .chartTitle{
     font-size: 128px;
