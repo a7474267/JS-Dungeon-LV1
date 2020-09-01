@@ -1,0 +1,47 @@
+*{
+    font-family : Medium;
+    color:#2EB738;
+  }
+.bg{
+    background-color: #F0F0F0;
+}
+.caption{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.caption h1{
+    font-size: 56px;
+}
+.line{
+    position: relative;
+}
+.line:before{
+    position: absolute;
+    content: "";
+    background: #2EB738;
+    height: 1px;
+    width: 280px;
+    transform:translate(-140px,15px);
+}
+.chartTitle{
+    font-size: 128px;
+    margin-bottom: -15px;
+}
+.chartSpace{
+    padding:34px 40px;
+    background: #FFFFFF;
+    border-radius: 100px 0 30px 0 ;
+    box-shadow: 0px 3px 10px #D8D8D8;
+}
+.chartSpaceDistance{
+    margin-bottom: 40px;
+}
+.footer{
+    background-color: #2EB738;
+    height: 34px;
+}
+.copyright{
+    color:#F0F0F0;
+    margin-right: 85px;
+    margin-bottom: 0;
+}
